@@ -6,7 +6,7 @@ const assert = chai.assert;
 
 //takes a string and a callback function
 describe('Canary test', () => {
-  it('the string hello should bee hello', () => {
+  it('the string hello should be hello', () => {
     const hello = 'hello';
 
     hello.should.be.equal('hello')
